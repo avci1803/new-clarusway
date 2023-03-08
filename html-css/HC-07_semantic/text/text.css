@@ -1,0 +1,13 @@
+/* Default font-size 16px dir */
+html {
+  font-size: 20px;
+}
+
+/*Degistirlmedigi sürece h1 in büyüklügü default olarak font-size nin 2 katidir. 16*2=32*/
+* {
+  color: red;
+}
+
+p {
+  /*p nin size default font-size a esittir. */
+}

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: aquamarine;
+  margin: 10px;
+  padding: 20px;
+}
+/*Bir blok element icinde inline lementler varsa, bunlar text-align ile hizalanabilir. Block eleemetn icinde ki block elementler text-align ile hizalanamaz!!*/
+
+.div {
+  background-color: bisque;
+  margin-bottom: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  /*width: 50%; */
+  width: 100px;
+  /*div gibi block elementler  margin:auto ile ortalabilir. */
+  margin: 20px auto;
+  border: 10px solid purple;
+}
+
+hr {
+  margin: 30px 10px;
+}
+
+/*inline element icerik kadar yer kaplar, bu sebepten margin ve padding top ve bottom degerlerini alamazlar. Bu özellikleri kullanmak icin elementler display propertisi ile inline-block haline getirebilirler */
+.nav li {
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.nav {
+  text-align: center;
+}
+
+.nav li:hover {
+  cursor: pointer;
+  background-color: rgb(251, 140, 5);
+  color: antiquewhite;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h2:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

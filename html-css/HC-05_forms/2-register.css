@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 20px 0px;
+  text-align: center;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("/img/kapadokya.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*! body default olarak yüksekligi yoktur */
+
+form {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(97, 186, 255, 1) 0%,
+    rgba(166, 239, 253, 1) 90.1%
+  );
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/*label inline lementtir. Doalyisiyla width dogrudan calismaz */
+label {
+  display: inline-block;
+  width: 90px;
+}
+
+.inputs {
+  border-radius: 5px;
+  width: 200px;
+  padding: 10px 5px;
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.lang-div,
+.gender-div {
+  display: inline-block;
+}
+
+.lang-div label,
+.gender-div label {
+  width: auto;
+  margin-right: 10px;
+}
+.radio-check {
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn-container input {
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(81, 72%, 78%);
+  padding: 10px;
+}
+.btn-container input:hover {
+  background-color: hsl(81, 79%, 15%);
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.text-area-div * {
+  vertical-align: middle;
+}

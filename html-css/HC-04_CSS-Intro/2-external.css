@@ -1,0 +1,30 @@
+/* body {
+  background-color: rgb(226, 215, 250);
+}
+*/
+
+* {
+  background-color: bisque;
+}
+
+h1 {
+  color: cadetblue;
+}
+
+h1:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+  color: cornflowerblue;
+}
+li:hover {
+  color: brown;
+  font-weight: 800;
+}
+
+.list {
+  border: 2px solid red;
+}

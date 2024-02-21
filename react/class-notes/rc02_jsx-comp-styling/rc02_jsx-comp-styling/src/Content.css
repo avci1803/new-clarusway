@@ -1,0 +1,9 @@
+.par {
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1rem;
+}
+
+.content-div {
+  padding: 2rem;
+}

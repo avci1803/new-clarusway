@@ -1,0 +1,46 @@
+@import "variable";
+.container {
+  // margin-bottom: 10rem; eger footer margin=fixed olursa bunu aktif et.
+  .card {
+    max-width: 400px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 1rem;
+
+    img {
+      width: 300px;
+      border-radius: 50%;
+      margin: 1.5rem;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    h3 {
+      color: green;
+    }
+
+    .buttons {
+      button {
+        border: none;
+        border-radius: 10px;
+        margin-right: 0.4rem;
+        &:hover {
+          cursor: pointer;
+          opacity: 0.5;
+        }
+      }
+      .small {
+        padding: 0.5rem 1rem;
+        background-color: $neon;
+      }
+
+      .large {
+        padding: 0.5rem 1.7rem;
+        background-color: $olive;
+      }
+    }
+  }
+}
